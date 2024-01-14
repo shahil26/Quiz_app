@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-div">
+        <header>
+            Pulse Play
+        </header>
+        
+          <nav>
+            
+            <a class="icon" onclick="toggleNavbar()">
+              &#9776; <!-- Hamburger icon -->
+            </a> 
+            <div class="navbar-collapse">
+              <a href="#" onclick="toggleNavbar()">Home</a>
+              <a href="#" onclick="toggleNavbar()">Create Test</a>
+              <a href="#" onclick="toggleNavbar()">View Tests</a>
+              <a href="#" onclick="toggleNavbar()">Settings</a>
+            </div>
+          </nav>
+        
+          <!-- Your application content goes here -->
+        
+          <script>
+            function toggleNavbar() {
+              var navbarCollapse = document.querySelector('.navbar-collapse');
+              navbarCollapse.style.display = (navbarCollapse.style.display === 'block') ? 'none' : 'block';
+            }
+          </script>
+
+    </div>
+</body>
+</html>

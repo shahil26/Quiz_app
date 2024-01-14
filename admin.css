@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic Coding', monospace;
+    background-color: #299746;
+}
+#main-div{
+    background-color: white;
+    height: 100vh;
+    max-width: 375px;
+    margin: auto auto;
+}
+
+#userImage{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto auto 0.5rem auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+    align-items: center;
+}
+h1{
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0;
+}
+.inputFeild{
+    font-family: 'Nanum Gothic Coding', monospace;
+    display: block;
+    margin: 1em auto;
+    height: 2em;
+    text-align: center;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#Table{
+    width: 50%;
+    margin: 0 auto;
+}
+span{
+    width: 50%;
+    
+}
+#first{
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#second{
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.registerbtn{
+    text-align: center;
+    border-radius: 5px;
+    height: 2.5em;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: bold;
+    border: 2px solid #299746;
+    background-color: #5cb874;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+#login{
+    display: block;
+    margin:  auto;
+    text-align: center;
+}
+#admin-link{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 375px;
+}
+#admin-link div{
+    width: inherit;
+    margin-bottom: 1rem;
+}
+#admin-link a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}

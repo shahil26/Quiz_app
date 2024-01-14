@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admin.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Admin Login Page Start -->
+    <div id="main-div">
+      <div id="login">
+        <div style="padding-top: 3rem; margin-bottom: 3rem">
+          <img src="./assets/user_logo.jpg" alt="USER-LOGO" id="userImage" />
+          <input
+            type="file"
+            id="fileInput"
+            style="display: none"
+            onchange="handleFileSelection();"
+          />
+          <button
+            type="button"
+            onclick="chooseImageFile();"
+            class="registerbtn"
+          >
+            Change Image
+          </button>
+        </div>
+        <h1>LOGIN</h1>
+        <input
+          type="text"
+          placeholder="Enter Admin Id"
+          class="inputFeild"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Enter Passcode"
+          class="inputFeild"
+          required
+        />
+        <a href="test.html"><button type="button" class="registerbtn">Create Test</button></a>
+        <a href="#"><button type="button" class="registerbtn">Edit Test</button></a>
+      
+    
+    
+        <div id="admin-link">
+          <div>
+            <a href="admin_signup.html">New User? Create Account</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Admin Login Page End -->
+    <script src="admin.js"></script>
+  </body>
+</html>
